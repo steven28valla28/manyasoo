@@ -32,7 +32,7 @@ img{display:block;max-width:100%}
 .mobile-menu{display:none;border:0;background:transparent;color:#fff;font-size:1.6rem}
 
 /* Hero */
-.hero{position:relative;overflow:hidden;color:#fff;background:linear-gradient(100deg,#1b0d07ee 0%,#291209df 47%,#30140777 100%),url('img/hero-pollo.jpg') center/cover}
+.hero{position:relative;overflow:hidden;color:#fff;background:linear-gradient(100deg,#1b0d07ee 0%,#291209df 47%,#30140777 100%),url('hero-pollo.jpg') center/cover}
 .hero-content{width:min(1200px,calc(100% - 44px));min-height:445px;margin:auto;display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:35px;padding:35px 0 45px}
 .hero-copy{position:relative;z-index:2}
 .kicker,.section-kicker{display:inline-block;font-size:.72rem;letter-spacing:1.5px;font-weight:900;color:var(--yellow)}
