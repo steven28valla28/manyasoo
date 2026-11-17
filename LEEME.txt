@@ -1,0 +1,17 @@
+PROYECTO MANYASO - HTML Y CSS SEPARADOS
+
+CONTENIDO:
+- index.html: estructura de la página.
+- styles.css: estilos y diseño visual.
+- img/: logotipo original y fotografías de los productos.
+
+PARA ABRIR:
+1. Descomprime el archivo ZIP.
+2. Abre la carpeta MANYASO en Visual Studio Code o en tu computadora.
+3. Haz doble clic en index.html o ábrelo con Live Server.
+4. Mantén index.html, styles.css y la carpeta img juntos para que carguen las imágenes.
+
+PERSONALIZAR WHATSAPP:
+En index.html busca el enlace https://wa.me/ y reemplázalo por tu número con código de país, sin + ni espacios. Para Perú usa 51 seguido de tu número.
+
+Los precios son referenciales y pueden actualizarse según los costos del emprendimiento.

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MANYASO: petipanes y mini hamburguesas de pollo. El sabor que une a los patas.">
+  <title>MANYASO | Tienda online</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- CABECERA ESTILO TIENDA ONLINE -->
+  <header class="site-header" id="inicio">
+    <div class="topbar">
+      <a class="logo-link" href="#inicio" aria-label="MANYASO, inicio">
+        <img src="img/logo-manyaso.png" alt="Logotipo de MANYASO">
+      </a>
+
+      <form class="search" action="#productos" role="search">
+        <label class="sr-only" for="buscar">Buscar productos</label>
+        <input id="buscar" type="search" placeholder="Busca tu MANYASO favorito...">
+        <button type="submit" aria-label="Buscar">⌕</button>
+      </form>
+
+      <a class="header-link account" href="#nosotros">
+        <span class="small">Bienvenido</span>
+        <strong>Conócenos</strong>
+      </a>
+      <a class="header-link orders" href="#contacto">
+        <span class="small">¿Tienes dudas?</span>
+        <strong>Contáctanos</strong>
+      </a>
+      <a class="cart" href="#productos"><span>🛒</span><b>Productos</b></a>
+      <button class="mobile-menu" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+
+    <nav class="subnav" id="mainNav">
+      <a href="#inicio">☰ <strong>Inicio</strong></a>
+      <a href="#productos">Todos los productos</a>
+      <a href="#nosotros">Sobre MANYASO</a>
+      <a href="#ventajas">¿Por qué elegirnos?</a>
+      <a href="#contacto">Contacto</a>
+      <span class="nav-promo">¡EL SABOR QUE UNE A LOS PATAS!</span>
+    </nav>
+  </header>
+
+  <main>
+    <!-- PORTADA -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-copy">
+          <span class="kicker">EMPRENDIMIENTO GASTRONÓMICO PERUANO</span>
+          <img class="hero-brand" src="img/logo-manyaso.png" alt="MANYASO - El sabor que une a los patas">
+          <h1>¡Tu antojo tiene <em>nombre!</em></h1>
+          <p>Somos un emprendimiento gastronómico que ofrece petipanes y mini hamburguesas con sabor peruano, variedad y mucho flow.</p>
+          <a class="primary-btn" href="#productos">¡Conoce nuestros productos! <span>➜</span></a>
+          <div class="hero-points">
+            <span>★ Sabor especial</span><span>✓ Precios accesibles</span><span>⚡ Atención rápida</span>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <img src="img/hero-pollo.jpg" alt="Hamburguesa de pollo MANYASO">
+          <div class="photo-sticker">¡BRAVAZO!</div>
+        </div>
+      </div>
+      <div class="hero-bottom"></div>
+    </section>
+
+    <!-- BENEFICIO / PROPUESTA DE VALOR -->
+    <section class="intro-strip" id="nosotros">
+      <div class="container intro-grid">
+        <div>
+          <span class="section-kicker">BIENVENIDOS A MANYASO</span>
+          <h2>El sabor que une<br><em>a los patas.</em></h2>
+        </div>
+        <p>MANYASO nace para darle más sabor a tus recreos y momentos compartidos. Preparamos opciones prácticas y sabrosas, con distintas combinaciones de pollo y precios referenciales al alcance de todos.</p>
+        <div class="value-chip"><b>✦ Nuestra propuesta de valor</b><span>Variedad, sabor peruano, presentación juvenil y precios accesibles en cada mordida.</span></div>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section class="products-section" id="productos">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="section-kicker">DESCUBRE NUESTRA CARTA</span><h2>Nuestros <em>productos</em></h2></div>
+          <p>Escoge el que más va contigo.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image"><span class="product-badge">FAVORITO</span><img src="img/manyaso-clasico.jpg" alt="Petipán MANYASO Clásico"></div>
+            <div class="product-info">
+              <span class="product-type">EL INFALTABLE</span>
+              <h3>MANYASO Clásico</h3>
+              <p>Pan suave con pollo deshilachado y nuestra cremita especial.</p>
+              <div class="product-bottom"><strong>S/ 2.50</strong><a href="#contacto">Lo quiero <span>➜</span></a></div>
+            </div>
+          </article>
+          <article class="product-card product-featured">
+            <div class="product-image"><span class="product-badge yellow">TOQUE FRESH</span><img src="img/pituco-manyaso.jpg" alt="Petipán Pituco Manyaso con palta"></div>
+            <div class="product-info">
+              <span class="product-type">EL MÁS FRESH</span>
+              <h3>Pituco Manyaso</h3>
+              <p>Pollo deshilachado, palta y crema. Una combinación de otro nivel.</p>
+              <div class="product-bottom"><strong>S/ 3.00</strong><a href="#contacto">Lo quiero <span>➜</span></a></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><span class="product-badge">CON TODO</span><img src="img/pudiente-manyaso.jpg" alt="Mini hamburguesa Pudiente Manyaso"></div>
+            <div class="product-info">
+              <span class="product-type">EL PODEROSO</span>
+              <h3>Pudiente Manyaso</h3>
+              <p>Mini hamburguesa de pollo con salsa y papas al hilo.</p>
+              <div class="product-bottom"><strong>S/ 3.50</strong><a href="#contacto">Lo quiero <span>➜</span></a></div>
+            </div>
+          </article>
+        </div>
+        <p class="price-note">*Precios referenciales, sujetos a cambios según costos y disponibilidad.</p>
+      </div>
+    </section>
+
+    <!-- VENTAJAS -->
+    <section class="benefits-section" id="ventajas">
+      <div class="container">
+        <div class="section-heading light-heading">
+          <div><span class="section-kicker">LA EXPERIENCIA MANYASO</span><h2>¿Por qué elegir <em>MANYASO?</em></h2></div>
+          <p>Pequeños antojos, grandes momentos.</p>
+        </div>
+        <div class="benefit-grid">
+          <div class="benefit"><span>★</span><h3>Sabor inigualable</h3><p>Combinaciones ricas para disfrutar cada mordida.</p></div>
+          <div class="benefit"><span>ₛ/</span><h3>Precios accesibles</h3><p>Alternativas pensadas para cuidar tu bolsillo.</p></div>
+          <div class="benefit"><span>⚡</span><h3>Atención rápida</h3><p>Opciones prácticas para disfrutar en tu recreo.</p></div>
+          <div class="benefit"><span>♥</span><h3>Hecho con pasión</h3><p>Una marca juvenil con identidad y sabor peruano.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact-section" id="contacto">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <span class="section-kicker">ESTAMOS PARA ATENDERTE</span>
+          <h2>¡Hagamos que tu día<br><em>sepa mejor!</em></h2>
+          <p>¿Tienes alguna pregunta o deseas consultar por nuestros productos? Escríbenos y conversemos.</p>
+          <a class="whatsapp-btn" href="https://wa.me/?text=Hola%20MANYASO%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20productos." target="_blank" rel="noopener">☏ &nbsp; Contáctanos por WhatsApp</a>
+          <p class="contact-note">Recuerda reemplazar el enlace por tu número de WhatsApp para recibir pedidos.</p>
+        </div>
+        <div class="contact-brand">
+          <img src="img/logo-manyaso.png" alt="Logotipo MANYASO">
+          <div>EL SABOR QUE UNE<br><strong>A LOS PATAS</strong></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top">
+      <a href="#inicio" class="footer-logo"><img src="img/logo-manyaso.png" alt="MANYASO"></a>
+      <p>El sabor que une a los patas.</p>
+      <div class="footer-nav"><a href="#inicio">Inicio</a><a href="#productos">Productos</a><a href="#contacto">Contacto</a></div>
+    </div>
+    <div class="copyright">© 2026 MANYASO | Emprendimiento Gastronómico Peruano<br><strong>Todos los derechos reservados a Reynaldo Steven Valladares Sanchez.</strong></div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.getElementById('mainNav');
+    menuToggle.addEventListener('click', () => {
+      const isOpen = mainNav.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
+      menuToggle.textContent = isOpen ? '✕' : '☰';
+    });
+    mainNav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      mainNav.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.textContent = '☰';
+    }));
+  </script>
+</body>
+</html>
